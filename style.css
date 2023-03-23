@@ -1,0 +1,90 @@
+body {
+	text-align: center;
+	background-color: rgb(255, 255, 255);
+}
+h3 {
+	line-height:3px;
+ }
+ h4 {
+	line-height:3px;
+ }
+.wrapper{
+    
+    width: 100%;
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.progress {
+    margin: 10px auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.toggle-btn, .toggle-btn1, .toggle-btn2{
+	width: 40px;
+	height: 20px;
+	background: rgb(233, 10, 10);
+	border-radius: 20px;
+	padding:5px;
+	transition: all 300ms ease-in-out;
+}
+.toggle-btn > .inner-circle, .toggle-btn1 > .inner-circle, 
+.toggle-btn2 > .inner-circle{
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border-radius:50%;
+	transition: all 300ms ease-in-out;
+}
+.toggle-btn.active, .toggle-btn1.active, .toggle-btn2.active{
+	
+	background: #0eb608;
+/*	box-shadow: 0 0 10px #52f321, 0 0 40px #52f321, 0 0 80px #52f321; */
+	transition-delay: 0.5s;
+}
+.toggle-btn.active>.inner-circle,.toggle-btn1.active>.inner-circle,
+.toggle-btn2.active>.inner-circle{
+	margin-left: 20px;
+}
+.icon1{	
+	color: #fff;
+	margin: 10px auto;
+}
+table, td, th {
+	border: 1px solid;
+	border-collapse: collapse;
+	color: #f0a400;
+  }
+
+  table {
+	width: 240px;
+  }
+  
+  th {
+	height: 50px;
+	background-color: #1f0c0c;
+	font-family: Geneva, Tahoma, sans-serif;
+	font-size: medium;
+  }
+
+
+  td {
+	padding-left: 5px;
+	text-align: left;
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
+	Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: small;
+	font-weight: bold;
+	background-color: #1f0c0c;
+  }
+
+  td1 {
+	text-align: center;
+  }
+
+
+

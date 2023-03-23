@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Sakelar Berbasis Web</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script src="script.js"></script>
+
+    <header>
+      <h3 style="color: #0eb608" class="text-center">Alat Peraga Pembelajaran</h3>
+      <h3 style="color: #0eb608" class="text-center">Sakelar Berbasis Web</h3>
+    </header>
+  </head>
+
+  <body>
+    <table style="border: 1px solid black; margin-left: auto; margin-right: auto">
+      <tr>
+        <th height="30px">DEVICE</th>
+        <th height="30px">ON~OFF</th>
+        <!-- <th height="30px">Status</th> -->
+      </tr>
+      <tr>
+        <td class="text-left">Lampu 1</td>
+        <td>
+          <div class="progress">
+            <div class="toggle-btn" id="unact">
+              <div class="inner-circle"></div>
+            </div>
+            <div class="toggle-btn active" id="act">
+              <div class="inner-circle"></div>
+            </div>
+          </div>
+        </td>
+        <!--  <td>ON/OF</td> -->
+      </tr>
+
+      <tr>
+        <td>Lampu 2</td>
+        <td>
+          <div class="progress">
+            <div class="toggle-btn1" id="unact1">
+              <div class="inner-circle"></div>
+            </div>
+            <div class="toggle-btn1 active" id="act1">
+              <div class="inner-circle"></div>
+            </div>
+          </div>
+        </td>
+        <!-- <td>ON/OF</td> -->
+      </tr>
+
+      <tr>
+        <td>Stop Kontak</td>
+        <td>
+          <div class="progress">
+            <div class="toggle-btn2" id="unact2">
+              <div class="inner-circle"></div>
+            </div>
+            <div class="toggle-btn2 active" id="act2">
+              <div class="inner-circle"></div>
+            </div>
+          </div>
+        </td>
+        <!-- <td>ON/OF</td> -->
+      </tr>
+    </table>
+    <h4 style="color: #0c0c0c" class="text-center"><i>Internet of Things - SMK N 2 YK</i></h4>
+    <h4 style="color: #0c0c0c" class="text-center"><i>Dwi Mochtar @2022</i></h4>
+  </body>
+</html>
